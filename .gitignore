@@ -1,0 +1,23 @@
+*.csv
+*.pdf
+*.txt
+*.docx
+*.db
+*.env
+.vscode
+__pycache__/
+*.png
+*.streamlit
+venv/
+cache
+.venv/
+exports
+gradio
+*.json
+*.xlsx
+*.log
+*.jsonl
+llm-venv/
+env/
+Pandas Basic Cheatsheet/
+slack-venv/
