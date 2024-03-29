@@ -12,8 +12,8 @@ This use case demonstrates a chatbot powered by Google's generative AI model and
 
 ### Technology Stack
 
-- **Google Generative AI (Gemini-Pro model)**: Offers precise answers with a low temperature setting.
-- **PandasAI**: Facilitates natural language queries for data analysis and visualization across various sources.
+- **Google Generative AI (Gemini-Pro model)**: Offers precise answers with a low temperature setting. Explore more about Google Generative AI models [here](https://python.langchain.com/docs/integrations/llms/google_ai).
+- **PandasAI**: Facilitates natural language queries for data analysis and visualization across various sources. Learn more about PandasAI [here](https://docs.pandas-ai.com/en/latest/).
 
 ### Implementation
 
@@ -76,7 +76,7 @@ Introduces the `SQLDatabaseChain` concept, allowing models to understand and que
 ### Technology Stack
 
 - **Google Palm Model**: Used for generating insights from the database.
-- **SQLDatabaseChain**: Facilitates model access to database context for query execution.
+- **SQLDatabaseChain**: Facilitates model access to database context for query execution. Explore more about SQLDatabaseChain [here](https://python.langchain.com/docs/integrations/toolkits/sql_database).
 
 ### Safety Note
 
