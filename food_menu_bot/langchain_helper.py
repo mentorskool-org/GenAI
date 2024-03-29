@@ -5,11 +5,10 @@ from langchain.chains import LLMChain
 # from langchain.chains import SimpleSequentialChain
 from langchain.chains import SequentialChain
 from dotenv import load_dotenv, find_dotenv
-import os
 
 load_dotenv(find_dotenv())
 
-llm = OpenAI(temperature=0.6)
+llm = OpenAI(temperature=0.6, model_name='gpt-3.5-turbo')
 
 
 def generate_restaurant_name_and_items(cuisine):

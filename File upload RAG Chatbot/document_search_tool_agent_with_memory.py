@@ -19,10 +19,9 @@ from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import UnstructuredFileLoader
 from langchain.tools import Tool
-from langchain.agents import AgentType, initialize_agent
+from langchain.agents import initialize_agent
 from langchain.utilities import DuckDuckGoSearchAPIWrapper
 from langchain.memory import ConversationBufferMemory
-from langchain.agents import AgentType
 import os
 
 # Chat UI title

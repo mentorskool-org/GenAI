@@ -1,0 +1,20 @@
+Create a custom toll from retrievalqa.run, and then pass this to agent. 
+
+Along with this also pass the duck duck go search api tools, so that we can get information from web also 
+
+tools = [
+    Tool.from_function(
+        name="LLM and Vecotr DB components information",
+        description="Contains the answers of queries regarding LLM, and it's components such as vector db, embeddings, tokens, chains, agents, memory, indexing, retriver, etc",
+        func=qa_chain.run, # this is the retreiver chain created using RetrievalQA to fetch answers from vector db
+    ),
+    Tool.from_function(
+        name="Duck Duck go search engine",
+        func=search.run, # object of Duck Duck Go search engine (DuckDuckGoSearchAPIWrapper())
+        description="Useful when we need to answer the questions regarding learners, clients, progress, skills, scores, etc.",
+    ),
+]
+
+Use case: 
+1. Create a chatbot to upload documents and ask question related to it. It should also include other tools such as search engine.
+2. Create a chatbot to upload csv files and perform visualization on that.

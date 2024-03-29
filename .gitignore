@@ -6,6 +6,7 @@
 *.env
 .vscode
 __pycache__/
+pandasai-venv
 *.png
 *.streamlit
 venv/
@@ -23,3 +24,5 @@ Pandas Basic Cheatsheet/
 slack-venv/
 Enqurious_related_chatbot/
 Gemini credentials/
+Enqurious Portal Experiments/
+Fine tuning/
