@@ -42,7 +42,7 @@ df_chain.chat("""
 
 ### Output
 
-![Order Placement Line Chart](order_placement_line_chart.png "Order Placement Over Time")
+[Order Placement Line Chart](https://drive.google.com/file/d/1yS_3m6ecB6tAQtcQIvBatLc7LILW-jk6/view?usp=sharing)
 
 Visualizations are generated as specified by the user's query, demonstrating the powerful integration of AI in data analysis tasks.
 
